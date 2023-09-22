@@ -18,7 +18,10 @@ TrackEdge is a Chrome Extension used to monitor the amount of time wasted on dis
 # Install
 
 Download the source code and load it as an unpacked extension.We are unable to provide to install it form crome extension shop as it costs around $5.
-
+Step 1 : Download this repo file and unzip it.
+Step 2 : Opne this file in vs code and open menifest file.
+Step 3 : Go to your crome and here we goo you can see this extension there with "T" logo named as TrackEdge.
+                         Here we go you can use it now:)
 # Usage
 
 <p align="center">
