@@ -25,7 +25,13 @@ Step 1 : Download this repo file and unzip it.
 Step 2 : Opne this file in vs code and open menifest file.
 </p>
 <p>
-Step 3 : Go to your crome and here we goo you can see this extension there with "T" logo named as TrackEdge.
+Step 3 : Go to your crome and click on extension icon , then go to manage extension.
+</p>
+<p>
+ Step 4 : There you will find Loadunpacked , click on it and upload this extension file there.
+</p>
+<p>
+ Step 5 : Now you can able to see this extesion there named as TrackEdge with "T" logo .
 </p>
                          Here we go you can use it now:)
                          
