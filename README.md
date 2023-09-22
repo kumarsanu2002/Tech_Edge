@@ -1,3 +1,8 @@
+# Team Details
+ Team Leader => Kumar sanu , 21BCS9785 , 6204874825 .
+ Members => Prabhat Kumar , 21BCS
+            Anant Bharadwaj , 
+
 # TrackEdge
 
 TrackEdge is a Chrome Extension used to monitor the amount of time wasted on distracting websites while you're working.
