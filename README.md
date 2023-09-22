@@ -18,7 +18,7 @@ Download the source code and load it as an unpacked extension.We are unable to p
 # Usage
 
 <p align="center">
-  ![GitHub Logo](https://github.com/kumarsanu2002/Kumar_sanu-21BCS9785/raw/main/path-to-image/image.jpg)
+  ![GitHub Logo](https://github.com/kumarsanu2002/Kumar_sanu-21BCS9785/blob/main/screenshots/Described%20photo.png)
 </p>
  
 Open any website in crome then go to extension and  click on + button then it will auto add that domain to track it.
