@@ -28,6 +28,7 @@ Step 2 : Opne this file in vs code and open menifest file.
 Step 3 : Go to your crome and here we goo you can see this extension there with "T" logo named as TrackEdge.
 </p>
                          Here we go you can use it now:)
+                         
 # Usage
 
 <p align="center">
