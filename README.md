@@ -18,7 +18,7 @@ Download the source code and load it as an unpacked extension.We are unable to p
 # Usage
 
 <p align="center">
-  <img src="https://github.com/kumarsanu2002/TimeEdge/blob/main/screenshots/Described%20photo.png"/>
+  <img src="https://drive.google.com/file/d/1I0PXiIGqOSmbOiMLZz8q4GDNjJxvkt6M/view?usp=drive_link"/>
 </p>
  
 Open any website in crome then go to extension and  click on + button then it will auto add that domain to track it.
