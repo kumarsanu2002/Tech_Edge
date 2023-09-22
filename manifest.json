@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "TrackEdge",
+  "version": "0.0.1",
+  "description": "Monitor the amount of time spend on the web to increase your work productivity.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "storage",
+    "background",
+    "tabs",
+    "idle",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "media/logo.png.png",
+    "default_popup": "popup.html",
+    "default_title": "TrackEdge"
+  },
+
+  "icons": {
+  	"16": "media/logo.png.png",
+  	"48": "media/timely48.png",
+  	"128": "media/timely128.png"
+  }
+
+}

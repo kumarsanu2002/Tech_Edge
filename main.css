@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body {
+  width: 300px;
+  overflow: scroll;
+  background-color: #F0F0F0;
+  font-family: Karla, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+#tab-button {
+  color: grey;
+  font-weight: 600;
+}
+#tab-button:hover{
+  text-decoration: underline;
+  color:red;
+}
+#restart-button {
+  width: 5%;
+  position: fixed;
+  top: 8px;
+  right: 6px;
+}
+
+#restart-button img {
+  width: 100%;
+}
+
+#timely-heading {
+  color:red;
+  font-family: "American Typewriter", sans-serif;
+  font-weight: 200;
+  text-align: center;
+
+}
+
+#total-timer {
+  width: 25%;
+  position:relative;
+  left: 35%;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  background-color: #E0E0E0;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#domains-heading {
+  width:90%;
+  position:relative;
+  left:3%;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+#domains-heading h2, #add-website {
+  display: inline-block;
+  margin:0;
+  color: darkblue;
+  font-weight: 200;
+}
+
+#add-website {
+  float:right;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#websites {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.website-entry {
+  display: grid;
+  grid-template-columns: 1fr 20fr 6fr 2fr;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.domain {
+  margin-right: 1em;
+  font-weight: 600;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+	display:none;
+}
+
+
+.delete-button {
+  visibility: hidden;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  color:red;
+}
+
+.website-entry:hover .delete-button {
+  visibility:visible;
+}
+
+#download-link {
+  text-decoration: none;
+  color: grey;
+  font-weight: 600;
+  float: right;
+  margin: 0 0 0.5em 0;
+}
+#download-link:hover{
+  text-decoration: underline;
+  color:red;
+}
+
+#alert-settings input {
+  width: 10%;
+  border: none;
+  background-color: #E0E0E0;
+  margin: 0 0.25em 0.25em 0;
+}
+
+#alert-settings button {
+  color: darkblue;
+  font-weight: 600;
+  padding: 0.5em;
+  background-color: #E0E0E0;
+  border-radius: 10%;
+}
+
+
+label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox {
+  float:right;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #ccc;
+}
+
+label input:checked ~ .checkbox {
+  background-color: green;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="popup.js" type="text/javascript"></script>
+    <script src="options.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <p><button id="tab-button">options</button></p>
+    <div id ="timely">
+      <button id="restart-button" title="restart timer">
+        <img src="media/restart-arrow.png" />
+      </button>
+      <h1 id="timely-heading">TrackEdge</h1>
+      <div id="total-timer">00:00:00</div>
+      <div id="domains-heading">
+        <h2>Domains:</h2>
+        <button id="add-website" title="Add current domain">+</button>
+      </div>
+      <ul id="websites">
+        <li style="color:darkblue;width:90%;position:relative;left:5%;">None yet.</li>
+      </ul>
+      <a href="#" id="download-link" style="display:none;">download data</a>
+    </div>
+
+    <!-- Options Page  -->
+    <div id="options" style="display:none";>
+      <br>
+      <div>
+        <label id="save-data">
+          <input type="checkbox" />
+          Save data for download
+          <span class="checkbox"></span>
+        </label>
+        <br>
+        <br>
+        <label id="delete-previous" style="display:none;">
+          <input type="checkbox" />
+          Delete previous data once downloaded
+          <span class="checkbox"></span>
+        </label>
+      </div>
+      <br>
+      <label id="restart-on-lock">
+        <input type="checkbox" />
+        Restart timer on system lock
+        <span class="checkbox"></span>
+      </label>
+      <br>
+      <br>
+      <div>
+        <label id="set-alert">
+          <input type="checkbox" />
+          Alert user after certain time has been spent on a website
+          <span class="checkbox" style="position:relative;bottom:15px"></span>
+        </label>
+        <br>
+        <form id="alert-settings" style="margin-top:1em;display:none;">
+          <p style="margin-bottom:1em;">Alert after: </p>
+          <input type="number" min="0" max="59" value="0"/> seconds<br>
+          <input type="number" min="0" max="59" value="0"/> minutes<br>
+          <input type="number" min="0" max="24" value="0"/> hours<br>
+          <br>
+          <button type="submit">Set Alerts</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
