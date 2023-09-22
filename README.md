@@ -1,5 +1,5 @@
 # Team Details
- <p> Team Leader => Kumar sanu , 21BCS9785 , 6204874825 </p>
+ <p> Team Leader => Kumar Sanu , 21BCS9785 , 6204874825 </p>
  <p>
  Members => 
   Prabhat Kumar , 21BCS9565  ,8540040580 ,
@@ -17,21 +17,21 @@ TrackEdge is a Chrome Extension used to monitor the amount of time wasted on dis
 
 # Install
 
-Download the source code and load it as an unpacked extension.We are unable to provide to install it form crome extension shop as it costs around $5.
+Download the source code and load it as an unpacked extension. We will publish it on the Chrome Extension Store soon.
 <p>
 Step 1 : Download this repo file and unzip it.
 </p>
 <p>
-Step 2 : Opne this file in vs code and open menifest file.
+Step 2 : Open this file in VS Code and open menifest file.
 </p>
 <p>
-Step 3 : Go to your crome and click on extension icon , then go to manage extension.
+Step 3 : Open chrome browser and go to extension settings. Enable Developer mode.
 </p>
 <p>
- Step 4 : There you will find Loadunpacked , click on it and upload this extension file there.
+ Step 4 : There you will find Load Unpacked , click on it and upload this extension file there.
 </p>
 <p>
- Step 5 : Now you can able to see this extesion there named as TrackEdge with "T" logo .
+ Step 5 : Now you can use the extention there named as TrackEdge with "T" logo .
 </p>
                          Here we go you can use it now:)
                          
@@ -41,7 +41,7 @@ Step 3 : Go to your crome and click on extension icon , then go to manage extens
   <img src="https://github.com/kumarsanu2002/Kumar_sanu-21BCS9785/blob/main/screenshots/Described%20photo.png"/>
 </p>
  
-Open any website in crome then go to extension and  click on + button then it will auto add that domain to track it.
+Open any website in chrome and then go to extension and  click on + button then it will auto add that domain to track it.
 
 When you add a website to your list, trackedge will automatically start a timer for it. Anytime your active tab is on one of these websites, the timer will continue.
 
@@ -58,4 +58,4 @@ Key features(by going on options button):
 
 # Issues and Contribution
 
-Contribution is always welcome
+Contributions are always welcome.
